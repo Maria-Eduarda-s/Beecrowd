@@ -18,18 +18,18 @@ espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ProdutoSimples1004 {
-	
-	public static void main(String[] args) throws IOException{
-		
-		Scanner sc= new Scanner(System.in);
-		
+public class ProdutoSimples_1004 {
+
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
+
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		int PROD = A * B;
-		
-		System.out.println("PROD = "+ PROD);
-		
+
+		System.out.println("PROD = " + PROD);
+
 		sc.close();
 	}
 }

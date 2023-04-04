@@ -4,7 +4,7 @@ package resolucaoIniciante;
  * A fórmula para calcular a área de uma circunferência é: area = π . raio2. 
  * Considerando para este problema que π = 3.14159:
 
-- Efetue o cálculo da área, elevando o valor de raio ao quadrado e
+-Efetue o cálculo da área, elevando o valor de raio ao quadrado e
  multiplicando por π.
 
 Entrada
@@ -21,18 +21,18 @@ o fim de linha após o resultado, caso contrário, você receberá "Presentation
 import java.io.IOException;
 import java.util.Scanner;
 
-public class AreaDoCirculo1002 {
-	
-	public static void main(String[] args) throws IOException{
-		
-		Scanner sc= new Scanner(System.in);
-		
+public class AreaDoCirculo_1002 {
+
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
+
 		Double raio = sc.nextDouble();
-		Double area =  3.14159 * raio * raio ;
-		
+		Double area = 3.14159 * raio * raio;
+
 		System.out.printf("A=%.4f%n", area);
-		
+
 		sc.close();
-		
+
 	}
 }

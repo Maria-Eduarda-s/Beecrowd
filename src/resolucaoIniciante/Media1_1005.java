@@ -22,16 +22,16 @@ import java.util.Scanner;
 
 public class Media1_1005 {
 
-	public static void main(String[] args) throws IOException{
-	
-		Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
 
 		Double A = sc.nextDouble();
 		Double B = sc.nextDouble();
 		Double media = ((A * 3.5) + (B * 7.5)) / 11;
-		
+
 		System.out.printf("MEDIA = %.5f\n", media);
-		
+
 		sc.close();
 	}
 }
