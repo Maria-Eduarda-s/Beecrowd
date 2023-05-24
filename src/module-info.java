@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Erick
- *
- */
-module Beecrowd {
-}

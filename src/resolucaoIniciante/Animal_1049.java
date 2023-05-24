@@ -29,10 +29,10 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Animal_1049 {
-public static void main(String[] args) throws IOException {
-		
+	public static void main(String[] args) throws IOException {
+
 		Scanner sc = new Scanner(System.in);
-		
+
 		String tipo, classe, dieta;
 		String vertebrado = "vertebrado";
 		String invertebrado = "invertebrado";
@@ -44,36 +44,28 @@ public static void main(String[] args) throws IOException {
 		String onivoro = "onivoro";
 		String carnivoro = "carnivoro";
 		String hematofago = "hematofago";
-		
+
 		tipo = sc.next();
 		classe = sc.next();
 		dieta = sc.next();
-		
+
 		if ((tipo.equals(vertebrado)) && (classe.equals(ave)) && (dieta.equals(carnivoro))) {
 			System.out.println("aguia");
-		}
-		else if ((tipo.equals(vertebrado)) && (classe.equals(ave)) && (dieta.equals(onivoro))) {
+		} else if ((tipo.equals(vertebrado)) && (classe.equals(ave)) && (dieta.equals(onivoro))) {
 			System.out.println("pomba");
-		}
-		else if ((tipo.equals(vertebrado)) && (classe.equals(mamifero)) && (dieta.equals(onivoro))) {
+		} else if ((tipo.equals(vertebrado)) && (classe.equals(mamifero)) && (dieta.equals(onivoro))) {
 			System.out.println("homem");
-		}
-		else if ((tipo.equals(vertebrado)) && (classe.equals(mamifero)) && (dieta.equals(herbivoro))) {
+		} else if ((tipo.equals(vertebrado)) && (classe.equals(mamifero)) && (dieta.equals(herbivoro))) {
 			System.out.println("vaca");
-		}
-		else if ((tipo.equals(invertebrado)) && (classe.equals(inseto)) && (dieta.equals(hematofago))) {
+		} else if ((tipo.equals(invertebrado)) && (classe.equals(inseto)) && (dieta.equals(hematofago))) {
 			System.out.println("pulga");
-		}
-		else if ((tipo.equals(invertebrado)) && (classe.equals(inseto)) && (dieta.equals(herbivoro))) {
+		} else if ((tipo.equals(invertebrado)) && (classe.equals(inseto)) && (dieta.equals(herbivoro))) {
 			System.out.println("lagarta");
-		}
-		else if ((tipo.equals(invertebrado)) && (classe.equals(anelideo)) && (dieta.equals(hematofago))) {
+		} else if ((tipo.equals(invertebrado)) && (classe.equals(anelideo)) && (dieta.equals(hematofago))) {
 			System.out.println("sanguessuga");
-		}
-		else if ((tipo.equals(invertebrado)) && (classe.equals(anelideo)) && (dieta.equals(onivoro))) {
+		} else if ((tipo.equals(invertebrado)) && (classe.equals(anelideo)) && (dieta.equals(onivoro))) {
 			System.out.println("minhoca");
-		}
-		else {
+		} else {
 		}
 	}
 }
