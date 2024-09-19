@@ -29,7 +29,7 @@ Imprima uma linha, contendo uma string S, representando o idioma mais apropriado
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ConversaInternacional {
+public class ConversaInternacional_1581 {
 
     public static void main(String[] args) throws IOException {
 
