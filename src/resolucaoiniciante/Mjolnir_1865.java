@@ -42,5 +42,6 @@ public class Mjolnir_1865 {
                 System.out.println("N");
             }
         }
+        sc.close();
     }
 }

@@ -49,6 +49,6 @@ public class AsAbasDePericles_2061 {
         }
 
         System.out.println(n);
-
+        sc.close();
     }
 }

@@ -65,5 +65,6 @@ public class MacPRONALTS_1985 {
             }
         }
         System.out.printf("%.2f\n", total);
+        sc.close();
     }
 }

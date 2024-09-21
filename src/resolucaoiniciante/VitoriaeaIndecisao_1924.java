@@ -33,5 +33,6 @@ public class VitoriaeaIndecisao_1924 {
             s = sc.nextLine();
         }
         System.out.println("Ciencia da Computacao");
+        sc.close();
     }
 }

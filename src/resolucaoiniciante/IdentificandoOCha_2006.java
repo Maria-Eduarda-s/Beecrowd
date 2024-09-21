@@ -43,5 +43,6 @@ public class IdentificandoOCha_2006 {
             }
         }
         System.out.println(contador);
+        sc.close();
     }
 }

@@ -37,5 +37,6 @@ public class Conta_1866 {
                 System.out.println("1");
             }
         }
+        sc.close();
     }
 }

@@ -44,5 +44,6 @@ public class Tridu_1933 {
         }else if( b > a){
             System.out.println(b);
         }
+        sc.close();
     }
 }
