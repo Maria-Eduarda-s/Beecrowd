@@ -30,5 +30,6 @@ public class PUM_1145 {
 			c += 4;
 			i++;
 		}
+		sc.close();
 	}
 }

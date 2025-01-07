@@ -35,5 +35,7 @@ public class QuadradoEAoCubo_1143 {
 			System.out.println(i + " " + a + " " + b);
 			i++;
 		}
+
+		sc.close();
 	}
 }

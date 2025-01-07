@@ -72,5 +72,7 @@ public class Grenais_1131 {
 			} else {
 				System.out.println("Nao houve vencedor");
 			}
+
+		sc.close();
 	}
 }

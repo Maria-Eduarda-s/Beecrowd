@@ -40,5 +40,7 @@ public class SequenciasCrescentes_1146 {
 			}
 			x = sc.nextInt();
 		}
+
+		sc.close();
 	}
 }
