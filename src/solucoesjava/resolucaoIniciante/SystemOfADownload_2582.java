@@ -57,5 +57,7 @@ public class SystemOfADownload_2582 {
 
 			C--;
 		}
+
+		sc.close();
 	}
 }

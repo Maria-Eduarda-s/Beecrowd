@@ -25,5 +25,7 @@ public class Tabuada_1078 {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i + " x " + N + " = " + N * i);
 		}
+
+		sc.close();
 	}
 }
