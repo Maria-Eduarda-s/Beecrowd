@@ -36,5 +36,7 @@ public class DividindoXPorY_1116 {
 				System.out.printf("%.1f%n", X / Y);
 			}
 		}
+
+		sc.close();
 	}
 }

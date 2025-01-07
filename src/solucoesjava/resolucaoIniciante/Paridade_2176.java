@@ -48,5 +48,7 @@ public class Paridade_2176 {
             System.out.println(numero + "1");
         }
 
+
+        sc.close();
     }
 }

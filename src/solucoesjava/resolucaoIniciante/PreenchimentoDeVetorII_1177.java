@@ -36,5 +36,7 @@ public class PreenchimentoDeVetorII_1177 {
 				}
 			}
 		}
+
+		sc.close();
 	}
 }

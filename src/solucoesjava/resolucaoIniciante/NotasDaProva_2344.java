@@ -53,5 +53,7 @@ public class NotasDaProva_2344 {
         }else {
             System.out.println("A");
         }
+
+        sc.close();
     }
 }

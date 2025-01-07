@@ -34,5 +34,7 @@ public class HoHoHo_1759 {
 		}
 		
 		System.out.println("Ho!");
+
+		sc.close();
 	}
 }

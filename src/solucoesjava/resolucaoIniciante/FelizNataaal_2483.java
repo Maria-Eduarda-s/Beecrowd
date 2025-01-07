@@ -32,5 +32,7 @@ public class FelizNataaal_2483 {
 			I--;
 		}
 		System.out.println(fraseFinal);
+
+		sc.close();
 	}
 }

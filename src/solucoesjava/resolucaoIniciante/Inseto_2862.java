@@ -35,5 +35,7 @@ public class Inseto_2862 {
 			}
 			C--;
 		}
+
+		sc.close();
 	}
 }

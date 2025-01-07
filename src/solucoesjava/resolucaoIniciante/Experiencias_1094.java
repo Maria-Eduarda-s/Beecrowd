@@ -64,5 +64,7 @@ public class Experiencias_1094 {
 			percentual = ((double) totais[j] / totalquantia) * 100.00;
 			System.out.printf("Percentual de " + tipoAnimal[j] + ": %.2f %%\n", percentual);
 		}
+
+		sc.close();
 	}
 }

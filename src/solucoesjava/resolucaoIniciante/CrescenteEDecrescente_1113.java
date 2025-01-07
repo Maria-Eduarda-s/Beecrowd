@@ -39,5 +39,4 @@ public class CrescenteEDecrescente_1113 {
 		}
 		sc.close();
 	}
-	
 }

@@ -67,5 +67,7 @@ public class Animal_1049 {
 			System.out.println("minhoca");
 		} else {
 		}
+
+		sc.close();
 	}
 }
