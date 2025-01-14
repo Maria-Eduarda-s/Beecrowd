@@ -1,5 +1,15 @@
 package resolucaoiniciante;
 
+/*
+Dada uma letra do alfabeto, informe qual a sua posição.
+
+Entrada
+Um único caracter L, uma letra maiúscula ('A'-'Z') do alfabeto.
+
+Saída
+Um único inteiro, que representa a posição da letra no alfabeto.
+ */
+
 import java.io.IOException;
 import java.util.Scanner;
 
