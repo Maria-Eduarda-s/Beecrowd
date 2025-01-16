@@ -1,8 +1,8 @@
 package resolucaoiniciante;
 /*
 Todo ano, Roberto gosta de escolher a sua árvore de natal, ele não deixa ninguém escolher para ele, pois ele acha que a
- árvore para ser bonita, deve satisfazer algumas condições, como altura, espessura e quantidade de galhos, para ele
- conseguir pendurar muitos enfeites nela.
+árvore para ser bonita, deve satisfazer algumas condições, como altura, espessura e quantidade de galhos, para ele
+conseguir pendurar muitos enfeites nela.
 
 Roberto quer que sua árvore tenha pelo menos 200 centímetros de altura, mas não quer que ela seja maior do que 300
 centímetros, ou a árvore não irá caber em sua casa. Quanto a espessura, ele deseja que a sua árvore tenha um tronco com
