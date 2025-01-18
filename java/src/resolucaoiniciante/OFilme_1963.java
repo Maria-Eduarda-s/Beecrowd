@@ -1,5 +1,9 @@
 package resolucaoiniciante;
 
+import java.io.IOException;
+import java.util.Locale;
+import java.util.Scanner;
+
 /*
 Bem-vindo à 3ạ Maratona de Programação Júnior da UFFS. Esperamos sinceramente que as próximas horas sejam muito produtivas para você, que você faça muitos balões e que, acima de tudo, você se divirta! Lembre que você sempre pode pedir 
 esclarecimento quando não entender direito a descrição de um problema. Lembre também que às 17:30 os juízes automáticos serão desligados e a competição entrará em modo blind, de modo que todas as submissões neste período só começarão a 
@@ -23,9 +27,21 @@ A única linha da saída deve consistir unicamente de um valor, que represente c
 
 public class OFilme_1963 {
 
+    public static void main(String[] args) throws IOException{
 
-    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         
+        Double a = sc.nextDouble();
+        Double b = sc.nextDouble();
+
+        if(a < b){
+            Double porcentagem = (b - a) / a ;
+            System.out.printf("%.2f%%%n", porcentagem * 100);
+        }else{
+            System.out.println("0.00%");
+        }
     }
 
 }
