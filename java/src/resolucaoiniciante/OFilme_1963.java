@@ -42,6 +42,7 @@ public class OFilme_1963 {
         }else{
             System.out.println("0.00%");
         }
+        sc.close();
     }
 
 }
