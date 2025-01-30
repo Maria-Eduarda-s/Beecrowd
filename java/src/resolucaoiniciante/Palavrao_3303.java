@@ -1,8 +1,5 @@
 package resolucaoiniciante;
 
-import java.io.IOException;
-import java.util.Scanner;
-
 /*
 Recentemente Juquinha aprendeu a falar palavrões. Espantada com a descoberta do garoto, sua mãe o proibiu de falar qualquer palavrão, sobre o 
 risco de o menino perder sua mesada.
@@ -18,6 +15,10 @@ composta apenas de letras minúsculas e seu tamanho não excede 20 caracteres.
 Saída
 Para cada caso de teste imprima se a palavra que Juquinha consultou é um palavrão ou uma palavrinha.
  */
+
+import java.io.IOException;
+import java.util.Scanner;
+
 
 public class Palavrao_3303 {
 
