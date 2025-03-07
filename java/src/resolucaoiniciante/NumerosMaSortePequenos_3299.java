@@ -31,5 +31,4 @@ public class NumerosMaSortePequenos_3299 {
         
         sc.close();
     }
-
 }
