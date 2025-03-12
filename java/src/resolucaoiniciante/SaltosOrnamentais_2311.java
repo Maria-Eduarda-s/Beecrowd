@@ -2,6 +2,7 @@ package resolucaoiniciante;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 /*
@@ -22,32 +23,35 @@ A saída deve apresentar o resultado da competição, com o nome dos competidore
 
 public class SaltosOrnamentais_2311 {
 
-    public static void main(String[] args) throws IOException{
-        
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
+        sc.useLocale(Locale.US);
 
         int n = sc.nextInt();
         sc.nextLine();
 
-        for(int i = 0; n > i; i++){
+        for (int i = 0; i < n; i++) {
             String name = sc.nextLine();
-            Double gd = sc.nextDouble();
-            Double[] rating = new Double[7];
+            double gd = sc.nextDouble();
 
+            Double[] rating = new Double[7];
             for (int j = 0; j < 7; j++) {
                 rating[j] = sc.nextDouble();
             }
-            Arrays.sort(rating);
-            double sum = 0;
+            sc.nextLine();
 
+            Arrays.sort(rating);
+
+            double sum = 0;
             for (int j = 1; j < 6; j++) {
                 sum += rating[j];
             }
+
             double finalScore = sum * gd;
-            System.out.printf("%s %.2f%n", name, finalScore);
+
+            System.out.printf(Locale.US, "%s %.2f%n", name, finalScore);
         }
 
         sc.close();
     }
-
 }
