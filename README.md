@@ -7,4 +7,5 @@ Este repositório contém minhas resoluções para os desafios propostos no site
 https://www.beecrowd.com.br/judge/pt
 
 ## Tecnologias Usadas:
-Java 21
+Java 17 
+Python 3.11
